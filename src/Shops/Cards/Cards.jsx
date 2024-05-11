@@ -23,11 +23,13 @@ const Cards = ({cards,cartInc,cartDec}) => {
                                     <h5 className="fw-bolder">{ele.prod}</h5>
                                   {(ele.star)?
                                    <div className="d-flex justify-content-center small text-warning mb-2">
-                                   <div className="bi-star-fill"></div>
-                                   <div className="bi-star-fill"></div>
-                                   <div className="bi-star-fill"></div>
-                                   <div className="bi-star-fill"></div>
-                                   <div className="bi-star-fill"></div>
+                                   <span className="bi-star-fill"></span>
+                                   <span className="bi-star-fill"></span>
+                                   <span className="bi-star-fill"></span>
+                                   <span className="bi-star-fill"></span>
+                                   <span className="bi-star-fill"></span>
+
+                                   
                                </div>
                                   :
                                   ''}
