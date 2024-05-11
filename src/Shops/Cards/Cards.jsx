@@ -34,7 +34,7 @@ const Cards = ({cards,cartInc,cartDec}) => {
                                   :
                                   ''}
                                    {(ele.del)?
-                                   <span className="text-muted text-decoration-line-through">$20.00</span>
+                                   <span className="text-muted text-decoration-line-through">{ele.del}</span>
                                    :''
                                    }
                                     
