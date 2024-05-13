@@ -1,3 +1,6 @@
+* We can add products to the cart and remove the item from the cart.
+* It cart will shows the count of the items which would added into the cart
+
 # React + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
